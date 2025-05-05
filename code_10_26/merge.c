@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <stdlib.h>
 
-//˫ָ
+// 双指针
 //void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 //{
 //    assert(nums1 && nums2);
@@ -56,7 +56,7 @@
 //    parr = NULL;
 //}
 
-//˫ָ
+// 逆向双指针
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     assert(nums1 && nums2);
