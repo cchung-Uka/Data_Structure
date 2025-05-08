@@ -17,7 +17,7 @@ struct ListNode* detectCycle(struct ListNode* head)
         if (slow == fast)
         {
             struct ListNode* meet = head;
-            // Ò»¸öÖ¸Õë´ÓÁ´±íÆðÊ¼Î»ÖÃÔËÐÐ£¬Ò»¸öÖ¸Õë´ÓÏàÓöµãÎ»ÖÃÈÆ»·£¬×îºóÔÚÈë¿ÚµãÏàÓö¡£
+            // ä¸€ä¸ªæŒ‡é’ˆä»Žé“¾è¡¨èµ·å§‹ä½ç½®è¿è¡Œï¼Œä¸€ä¸ªæŒ‡é’ˆä»Žç›¸é‡ç‚¹ä½ç½®ç»•çŽ¯ï¼Œæœ€åŽåœ¨å…¥å£ç‚¹ç›¸é‡ã€‚
             while (meet != slow)
             {
                 meet = meet->next;
