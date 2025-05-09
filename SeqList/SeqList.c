@@ -71,7 +71,7 @@ void SLPopFront(SL* psl)
 	assert(psl->sz > 0);
 
 	int begin = 0;
-	while (begin <= psl->sz - 1)
+	while (begin < psl->sz - 1)
 	{
 		psl->data[begin] = psl->data[begin + 1];
 		++begin;
