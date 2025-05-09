@@ -213,5 +213,6 @@ void SLTPrint(SLNode* phead)
 		printf("%d->", cur->val);
 		cur = cur->next;
 	}
+	
 	printf("NULL\n");
 }
