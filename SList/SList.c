@@ -94,9 +94,14 @@ void SLTPopFront(SLNode** pphead)
 {
 	assert(pphead && *pphead);
 
-	SLNode* next = (*pphead)->next;
-	free(*pphead);
-	*pphead = next;
+	// SLNode* next = (*pphead)->next;
+	// free(*pphead);
+	// *pphead = next;
+
+	SLNode* tmp = *pphead;
+	*pphead = (*pphead)->next;
+
+	free(tmp);
 }
 
 SLNode* SLTFind(SLNode* phead, SLTDataType x)
