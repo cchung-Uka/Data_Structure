@@ -18,7 +18,7 @@ void PrintTopK(const char* file, int k)
 		return;
 	}
 
-	// Ω®–°∂—
+	// Âª∫Â∞èÂ†Ü
 	for (int i = 0; i < k; ++i)
 	{
 		fscanf(fout, "%d", &minHeap[i]);
